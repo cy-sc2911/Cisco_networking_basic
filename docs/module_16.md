@@ -61,4 +61,11 @@
 
 ## Domain Name System
 # DNS Server
-    
+    DNS server is used to associate a domain name, or a host name, with an IP address.
+
+# A Note ABout Syntax Checker Activites
+    There are different simulation tools to help build your configuration and troubleshooting skills. Because these are simulation tools, they typically do not have all the functionality of real equipment. One such tool is the Syntax Checker.
+
+# Syntax Checker - The nslookup Command
+    For home networks the DNS server address is typically handled by DHCP running on the home router. ISP provides the DNS server address to home router, and then the home router uses DHCP to send the configuration to all devices connected to its network.
+        When
