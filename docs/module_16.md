@@ -30,3 +30,31 @@
 
             ![URI](images/uri.png)
 
+## Network Application Services
+# Common Network Application Services
+    The image below is a brief description of each service shown in a table.
+    ![Common Network Application Services](images/network_application_services.png)
+
+    Domain Name System (DNS)
+        Resolves internet names to IP address
+
+    Secure Shell (SSH)
+        Used to provide remote access to servers and networking devices
+
+    Simple Mail Transfer Protocol (SMTP)
+        Sends email messages and attachments from clients to servers and from servers to other email servers
+
+    Post Office Protocol (POP)
+        Used by email clients to retrieve email and attachments from a remote server
+
+    Internet Message Access Protocol (IMAP)
+        Used by email clients to retrieve email and attachments from a remote server
+
+    Dynamic Host Configuration Protocol (DHCP)
+        Used to automatically configure devices with IP addressing and other necessary information to enable them to communicate over the internet
+
+    HyperText Transfer Protocol (HTTP)
+        Used by web browsers to request web pages and web servers to transfers the files that make up web pages of the World Wide Web
+
+    File Transfer Protocol
+        Used for interactive file transfer between systems
