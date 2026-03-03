@@ -58,3 +58,7 @@
 
     File Transfer Protocol
         Used for interactive file transfer between systems
+
+## Domain Name System
+# DNS Server
+    
