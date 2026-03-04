@@ -68,4 +68,4 @@
 
 # Syntax Checker - The nslookup Command
     For home networks the DNS server address is typically handled by DHCP running on the home router. ISP provides the DNS server address to home router, and then the home router uses DHCP to send the configuration to all devices connected to its network.
-        When
+    Use the __command__ **nslookup**
