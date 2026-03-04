@@ -68,4 +68,12 @@
 
 # Syntax Checker - The nslookup Command
     For home networks the DNS server address is typically handled by DHCP running on the home router. ISP provides the DNS server address to home router, and then the home router uses DHCP to send the configuration to all devices connected to its network.
-    Use the __command__ **nslookup**
+    Use the command nslookup to discover the IP addresses for any domain name.
+
+## Web Clients and Servers
+# HTTP and HTML
+    When a web client receives the IP address of a web server, the client browser uses that IP address and port 80 to request web services. This request is sent to the server using the HyperText Transfer Protocol (HTTP).
+    When the server receives a port 80 request, the server responds to the client request and sends the web page to the client. The information content of a web page is encoded using specialized 'mark-up' languages. The HyperText Markup Language (HTMl) coding tells the browser how to format the web page and what graphics and fonts to use. HTML is the most commonly used language.
+    The HTTP protocol is not a secure protocol; information could easily be intercepted by other users as data is sent over the network. In order to provide security for the data, HTTP can be used with secure transport protocols. Requests for secure HTTP are sent to port 443. These request use https in the site address in the browser, rather than http.
+    There are many different web servers and web clients available. The HTTP protocol and HTML standards make it possible for these servers and clients from many different manufacturers to work together seamlesssly.
+    

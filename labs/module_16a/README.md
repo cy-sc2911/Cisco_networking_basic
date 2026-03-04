@@ -9,6 +9,7 @@
 ## Topology
     Describe the devices used:
         One PC connecting to a Server
+        ![Network topology](images/topology.png)
 
 ## Configuration Summary
     In simulation mode, under "Edit Filters", and under the IPv4 tab, only DNS is selected. Under the Misc tab, only HTTP is selected.
