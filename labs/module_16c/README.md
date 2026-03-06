@@ -47,6 +47,6 @@
 
     Step 3:
         Entering '?' command in the prompt to list the commands available in the ftp client and 'dir' to see the files available on the server.
+        
 ## Verification
-    The simulation captured the packages sent between the External Client and ciscolearn.web.com server.
-        ![Succesful Observation](images/successSimulation.png)
+
