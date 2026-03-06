@@ -45,8 +45,44 @@
                 230- Logged in
                 (passive mode On)
 
-    Step 3:
-        Entering '?' command in the prompt to list the commands available in the ftp client and 'dir' to see the files available on the server.
-        
+    Step 3: Uploading a file to the FTP Server
+        Enter '?' command in the prompt to list the commands available in the ftp client and 'dir' to see the files available on the server.
+
+        Enter 'put sampleFile.txt' to send the file to the server
+            Below are the output:
+                ftp>put sampleFile.txt
+                Writing file sampleFile.txt to 209.165.200.226:
+                File transfer in progress...
+                [Transfer complete - 26 bytes]
+                26 bytes copied in 0.128 secs (203 bytes/sec)
+
+        Enter 'dir' again in the prompt to list the contents of the FTP server and verified that the file has been uploaded to the FTP server, as shown in the image below.
+            ![Success file upload](images/confirmed_file_upload.png)
+
+        Part 4: Download a file from the FTP server
+            First, rename the file 'sampleFile.txt' and download it from the FTP server.
+
+                To rename the file, in the prompt enter 'rename sampleFile.txt sampleFile_FTP.txt'
+                    Below are the image and the output of the prompt:
+                        ftp>rename sampleFile.txt sampleFile_FTP.txt
+                        Renaming sampleFile.txt
+                        ftp>
+                        [OK Renamed file successfully from sampleFile.txt to sampleFile_FTP.txt]
+                        ftp>dir
+
+                        ![Rename file](images/rename_FTP_file.png)
+
+                Enter 'dir' again at the prompt and the file renamed has been verified.
+
+            To download the file, enter the command 'get sampleFile_FTP.txt' to retrieve the file from the server.
+                Below are the image and the output of the prompt:
+                    ftp>get sampleFile_FTP.txt
+                    Reading file sampleFile_FTP.txt from 209.165.200.226:
+                    File transfer in progress...
+                    [Transfer complete - 26 bytes]
+                    26 bytes copied in 0 secs
+
+            In the
+
 ## Verification
 
