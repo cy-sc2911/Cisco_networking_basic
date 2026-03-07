@@ -97,3 +97,27 @@
 # Security Issues with Telnet
     Although the Telnet protocol can requre a user to login, it does not support transporting encrypted data. All data exchanged during Telnet sessions is transported as plaintext across the network. This means that the data can be easily intercepted and understood.
     The Secure Shell (SSH) protocol offers an alternate and secure mthod for server access. SSH provides the structure for secure remote login and other secure network services. It also provides stronger authentication that Telnet and supports transporting session data using encryption. As a best practice, network professionals should always use SSH in place of Telnet, whenever possible.
+
+## Email and Messaging
+# Email Clients and Servers
+    Email is one of the most popuar client/server applications on the internet. Email servers run server software that enables them to interact with clients and with other email servers over the network.
+    Each mail server receives and stores mail for users who have mailboxes configured on the mail server. Each user with a mailbox must then use an email client to acces the mail server and read these messages. Many internet messageing systems use a web-based client to access email. For examples, Microsoft 365, Yahoo, and Gmail.
+    Mailboxes are identified by the format: user@company.domain
+    Various application protocols used in processing email include SMTP (Simple Mail Transfer Protocol), POP3 (Post Office Protocol version 3), and IMAP4 (Internet Message Access Protocol version4).
+
+# Email Protocols
+    Simple Mail Transfer Protocol (SMTP)
+        SMTP is used by an email client to send messages to its local email server. The local server then decides if the message is destined for a local mailbox or if the message is addressed to a mailbox on another server.
+        If the server has to send the message to a different server, SMTP is used between those two servers as well. SMTP requests are sent to port 25.
+
+    Post Office Protocol version 3 (POP3)
+        A server that supports POP clients receives and stores messages addressed to its users. When the client connects to the email server, the messages are downloaded to the client. By default, messages are not kept on the server after they have been accessed by the client. Clients contact POP3 servers on port 110.
+
+    Internet Message Access Protocol version4 (IMAP4)
+        A server that supports IMAP clients also receives and stores messages addressed to its users. However, unlike POP, IMAP keeps the messages in the maiboxes on the server, unless they are deleted by the user. The most current version of IMAP is IMAP4 which listens for client requests on port 143.
+        Many different email servers exist for the various network operating system platforms.
+
+# Text Messaging
+    Text messaging is one of the most popular communication tools in use today. In addition, text messaging software is built into many online applications, smartphone apps, and social media sites.
+    Text messages may also be called instant messages, direct messages, private messages, and chat messages. Text messaging enables users to communicate or chat over the internet in real-time. Text messaging services on a computer are usually accessed through a web-based client that is intergrated into social media or information sharing site. These clients usually only connect to other users of the same site.
+    There are also a number of standalone text message clients such as Cisco Webex Teams, Microsoft Teams, Whatsapp, Facebook Messenger, and many others. These applications are available for a wide variety of operating systems and devices. A mobile version is typically offered. In addition to text messages, these client support the transfer of documents, video, music, and audio files. 
