@@ -85,3 +85,6 @@
 
 ## Virtual Terminals
 # Remote Access with Telnet or SSH
+    Telnet provides a standard  method of emulating text-based terminal devices over the data network. Both the protocol itseld the client software that implements the protocol are commonly referred to as Telnet. Telnet servers listen for client requests on TCP port 23. A connection using Telnet is called a vty session, or connection. Rather than using a physical device to connect to the server, Telnet uses software to create a virtual device that provides the same features of a terminal session with access to the server's CLI.
+    Telnet is not considered to be a secure protocol. Although the Telnet protocol can require a user to login, it does not support transporting encrypted data. All data exchanged during Telnet sessions is transported as plaintext across the network. This means that the data can be easily intercepted and understood.
+    SSh provides the structure for secure remote login and other secure network services. It also provides stronger authentication thatn Telnet and supports transporting session data using encryption. Network professionals should always use SSH in place of Telnet, whenever possible.
