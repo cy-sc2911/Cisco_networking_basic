@@ -1,6 +1,20 @@
 ### Network Testing Utilities
 
 ## Troubleshooting Commands
+    There are a number of software utility programs that are available that can help identify network problems. Most of these utilities are provided by the operating system as CLI commands.
+    Some of the available utilities include:
+
+        ipconfig
+            Displays IP configuration information
+        ping
+            Test connections to other IP hosts
+        netstat
+            Displays network connections
+        tracert
+            Displays the route taken to the destination
+        nslookup
+            Directly queries the name server for information on a destination domain
+
 # ipconfig Command
     When a device does not get an IP address, or has an incorrect IP configuration, it cannot communicate on the network or access the internet. On Windows device, the IP configuration information can be viewed with the 'ipconfig' command at the command prompt. The 'ipconfig' command has several options that are helpful including, '/all', '/release', and '/renew'.
 
