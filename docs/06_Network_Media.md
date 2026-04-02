@@ -1,12 +1,11 @@
-### NETWORK MEDIA
 ## Network Media Types
-    - Communication transmits across a network on media. The media provides the channel over which the message travels from source to destination. Modern networks primarily use three types of media to interconnect devices are:
-        - Metal wires within cables
-            - Data is encoded into electrical impulses
-        - Glass or plastic fibers within cables (fiber-optic cable)
-            - Data is encoded into pulses of light
-        - Wireless transmission
-            - Data is encoded via modulation of specific frequencies of electromagnetic waves
+    Communication transmits across a network on media. The media provides the channel over which the message travels from source to destination. Modern networks primarily use three types of media to interconnect devices are:
+        Metal wires within cables
+            Data is encoded into electrical impulses
+        Glass or plastic fibers within cables (fiber-optic cable)
+            Data is encoded into pulses of light
+        Wireless transmission
+            Data is encoded via modulation of specific frequencies of electromagnetic waves
 
 # Three Media Types
     - Data is transmitted across a network on media. The media provides the channel over which the message travels from source to destination.

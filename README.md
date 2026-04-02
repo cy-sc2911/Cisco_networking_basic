@@ -6,22 +6,22 @@
 
 ## Topics Covered
     Network fundamentals
-    Module 2: Network Components, Types and Connections
-    Module 3: Wireless and Mobile Networks
-    Module 4: Build a Home Network
-    Module 5: Communication Principles
-    Module 6: Network Media
-    Module 7: The Access Layer
-    Module 8: Internet Protocol
-    Module 9: IPv4 and Network Segmentation
-    Module 10: IPv6 Addressing Formats and Rules
-    Module 11: Dynamic Addressing Formats and Rules
-    Module 12: Gateways to Other Networks
-    Module 13: The ARP Process
-    Module 14: Routing between Networks
-    Module 15: TCP and UDP
-    Module 16: Application Layer Services
-    Module 17: Network Testing Utilities
+    Network Components, Types and Connections
+    Wireless and Mobile Networks
+    Build a Home Network
+    Communication Principles
+    Network Media
+    The Access Layer
+    Internet Protocol
+    IPv4 and Network Segmentation
+    IPv6 Addressing Formats and Rules
+    Dynamic Addressing Formats and Rules
+    Gateways to Other Networks
+    The ARP Process
+    Routing between Networks
+    TCP and UDP
+    Application Layer Services
+    Network Testing Utilities
 
 ## Tools / Technologies
     ping
