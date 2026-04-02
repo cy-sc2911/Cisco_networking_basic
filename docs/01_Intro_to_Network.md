@@ -1,8 +1,8 @@
-## INTRODUCTION TO NETWORK
-      - What is a network?
+## Introduction to Network
+      What is a network?
          A system of two or more connected computing devices(such as computers, smartphones, servers, etc) that communicate with each other to share resources, data and applications.
 
-      - Types of networks
+      Types of networks
          Small home networks connect a few computers to each other and to the internet.
          SOHO(small office and home office) network allows computers in a home office or a remote office to connect to corporate network, or access centralized, shared resources.
          Medium to large networks, such as those used by corporations and schools, can have many locations with hundres or thousands of interconnected hosts.
