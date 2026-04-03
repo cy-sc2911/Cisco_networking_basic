@@ -1,18 +1,15 @@
 ## Client and Server
 # Client and Server Roles
-    All computers connected to a network that participate directly in network communications are classified as hosts.
-    Hosts can send and receive messages on the network. In modern networks, computer hosts can act as a client, a server, or both.
-    The software installed on the computer determines which role the computer plays.
+  All computers connected to a network that participate directly in network communications are classified as hosts. Hosts can send and receive messages on the network. In modern networks, computer hosts can act as a client, a server, or both. The software installed on the computer determines which role the computer plays.
 
-    Servers are hosts that habe software installed which enables them to provide information, like email or webpages, to other hosts on the network.
-    Each service requires separate server software.
+  Servers are hosts that habe software installed which enables them to provide information, like email or webpages, to other hosts on the network. Each service requires separate server software.
 
 # Peer-to-Peer Networks(P2P networks)
-    In small businesses and homes, many computers function as the servers and clients on the network, This type of network is called a
-    P2P network.
-    The simplest P2P network consists of two directly connected computers using eihter a wired or wireless connection. Both computers are then able to use this simple network to
-    exchange data and services with each other, acting as either a client or a server as necessary. Multiple PCs can also be connected to create a larger P2P network, but this
+  In small businesses and homes, many computers function as the servers and clients on the network, This type of network is called a P2P network.
+
+  The simplest P2P network consists of two directly connected computers using eihter a wired or wireless connection. Both computers are then able to use this simple network to exchange data and services with each other, acting as either a client or a server as necessary. Multiple PCs can also be connected to create a larger P2P network, but this
     requires a network devices, such as a switch, to interconnect the computers.
+
       The advantages:
         Easy to set up
         Less complex
