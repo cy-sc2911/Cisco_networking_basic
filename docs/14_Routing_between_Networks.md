@@ -1,5 +1,3 @@
-### Routing between Networks
-
 ## The Need for Routing
     As networks grow, it is often necessary to divide one access layer network into multiple access layer networks. There are many ways to divide networks based on different criteria.
 
@@ -72,4 +70,4 @@
                     Router can slow traffic between segments
                     More complexity and expense (requires a router)
 
-Note: When a router receives a frame on an interface, it strips the header containing the source and destination MAC addresses from the frame. The router checks the routing table to determine the interface to use to send the packet to its destination. The packet is then encapsulated in a new frame, with a different header information.
+    Note: When a router receives a frame on an interface, it strips the header containing the source and destination MAC addresses from the frame. The router checks the routing table to determine the interface to use to send the packet to its destination. The packet is then encapsulated in a new frame, with a different header information.

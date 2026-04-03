@@ -1,5 +1,3 @@
-### Network Testing Utilities
-
 ## Troubleshooting Commands
     There are a number of software utility programs that are available that can help identify network problems. Most of these utilities are provided by the operating system as CLI commands.
     Some of the available utilities include:

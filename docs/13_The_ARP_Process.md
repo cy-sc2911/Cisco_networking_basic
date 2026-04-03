@@ -1,5 +1,3 @@
-### The Arp Process
-
 ## Mac and IP
 # Destination on Same Network
     Sometimes a host must send a message, but it only knows the IP address of the destination device. The host needs to know the MAC address of that device, but how can it be discovered? That is where address resolution becomes critical.

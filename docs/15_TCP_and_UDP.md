@@ -1,5 +1,3 @@
-### TCP and UDP
-
 ## TCP and UDP
     UDP is a 'best effort' delivery system that does not require acknowledgement of receipt. UDP is a perferable with applications such as streaming audio and VoIP (Voice over Internet Protocol). Acknowledgement would slow down delivery and retransmissions are undesirable. Packets take a path from the source to a destination. A few packets may be lost but it is usually not noticeable.
     TCP packets take a path from the source to the destination. However, each of the packets has a sequence number. TCP breaks up a message into small pieces known as segments. The segments are numbered in sequence and passed to the IP process for assemnly into packets. TCP keeps track of the number of segments that have been sent to a specific host from a specific application. If the sender does not receive an acknowledgement within a certain period of time, it assumes that the segments were lost and retransmits them. Only the portion of the message that is lost is resent, not the entire message.
