@@ -1,5 +1,5 @@
-## IPv4 Unicast, broadcast and Multicast
-# Unicast
+# IPv4 Unicast, broadcast and Multicast
+## Unicast
     Unicast transmission refers to one device sending a message to one other device in one-to-one communications.
     A unicast packet has a destination IP address that is a unicast address which goes to a single recipient. A source IP address can only be a unicast address, because the packet can only originate from a single source. This is regardless of whether the destination IP address is a unicast, broadcast, or multicast.
     IPv4 unicast host addresses are in the address range of 1.1.1.1 to 223.255.255.255. However, within this range are many addresses that are reserved for special purposes.
