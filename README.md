@@ -68,7 +68,3 @@ Router# show ip route
 ## Weak Subjects
     Communication Principles
     The Access Layer
-
-## 🔗 Course Link
-
-[Cisco Networking Basics — Skills for All](https://www.netacad.com/courses/networking-basics)
